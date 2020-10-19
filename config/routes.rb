@@ -13,7 +13,7 @@ Rails.application.routes.draw do
       get :followers
       get :likes
       
-    get 'favoriting' , to: 'favorites#create'
+   
     
     end
   end
